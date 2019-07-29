@@ -1,0 +1,26 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net461</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="8.0.0" />
+    <PackageReference Include="Microsoft.AspNetCore.JsonPatch" Version="2.2.0" />
+    <PackageReference Include="Microsoft.Extensions.Logging" Version="2.2.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Solana.Web.Admin.Models\Solana.Web.Admin.Models.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="Horizon.Common.Processes.Legacy">
+      <HintPath>..\..\Horizon.Common.Build\Horizon.Common.Processes.Legacy\Horizon.Common.Processes.Legacy.dll</HintPath>
+    </Reference>
+    <Reference Include="Horizon.Common.Repository.Legacy">
+      <HintPath>..\..\Horizon.Common.Build\Horizon.Common.Repository.Legacy\Horizon.Common.Repository.Legacy.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>

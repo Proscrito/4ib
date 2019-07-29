@@ -1,0 +1,49 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28010.2046
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Solana.Web.Admin.API", "Solana.Web.Admin.API\Solana.Web.Admin.API.csproj", "{64675F22-A198-45E1-9E4D-29D4F9FC2B52}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Solana.Web.Admin.BLL", "Solana.Web.Admin.BLL\Solana.Web.Admin.BLL.csproj", "{75974489-C7BA-46AF-AB85-9C2AB37CEAE5}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Solana.Web.Admin.Tests", "Solana.Web.Admin.Tests\Solana.Web.Admin.Tests.csproj", "{EB3079D5-550C-499B-8184-A4119ED1D327}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Solana.Web.Admin.Models", "Solana.Web.Admin.Models\Solana.Web.Admin.Models.csproj", "{B4CF83EE-5B42-43F5-97CE-021175C3CE98}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Solana.Web.Admin.Clients", "Solana.Web.Admin.Clients\Solana.Web.Admin.Clients.csproj", "{F2049B27-1E00-49A1-A259-BEF70D3EF564}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{64675F22-A198-45E1-9E4D-29D4F9FC2B52}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{64675F22-A198-45E1-9E4D-29D4F9FC2B52}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{64675F22-A198-45E1-9E4D-29D4F9FC2B52}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{64675F22-A198-45E1-9E4D-29D4F9FC2B52}.Release|Any CPU.Build.0 = Release|Any CPU
+		{75974489-C7BA-46AF-AB85-9C2AB37CEAE5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{75974489-C7BA-46AF-AB85-9C2AB37CEAE5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{75974489-C7BA-46AF-AB85-9C2AB37CEAE5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{75974489-C7BA-46AF-AB85-9C2AB37CEAE5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EB3079D5-550C-499B-8184-A4119ED1D327}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EB3079D5-550C-499B-8184-A4119ED1D327}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EB3079D5-550C-499B-8184-A4119ED1D327}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EB3079D5-550C-499B-8184-A4119ED1D327}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B4CF83EE-5B42-43F5-97CE-021175C3CE98}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B4CF83EE-5B42-43F5-97CE-021175C3CE98}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B4CF83EE-5B42-43F5-97CE-021175C3CE98}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B4CF83EE-5B42-43F5-97CE-021175C3CE98}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F2049B27-1E00-49A1-A259-BEF70D3EF564}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F2049B27-1E00-49A1-A259-BEF70D3EF564}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F2049B27-1E00-49A1-A259-BEF70D3EF564}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F2049B27-1E00-49A1-A259-BEF70D3EF564}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A5C28EB0-F09C-40FE-88C4-7825BA690D07}
+	EndGlobalSection
+EndGlobal

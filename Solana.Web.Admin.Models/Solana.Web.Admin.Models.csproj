@@ -1,0 +1,29 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net461</TargetFramework>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <OutputPath></OutputPath>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="8.0.0" />
+    <PackageReference Include="System.ComponentModel.Annotations" Version="4.5.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="Horizon.Common.Models">
+      <HintPath>..\..\Horizon.Common.Build\Horizon.Common.Models\netstandard2.0\Horizon.Common.Models.dll</HintPath>
+    </Reference>
+    <Reference Include="Horizon.Common.Repository.Legacy">
+      <HintPath>..\..\Horizon.Common.Build\Horizon.Common.Repository.Legacy\Horizon.Common.Repository.Legacy.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Responses\Schools\" />
+  </ItemGroup>
+
+</Project>

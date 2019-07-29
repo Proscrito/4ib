@@ -1,0 +1,17 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net461</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Solana.Web.Admin.BLL\Solana.Web.Admin.BLL.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="Horizon.Common.Models">
+      <HintPath>..\..\Horizon.Common.Build\Horizon.Common.Models\netstandard2.0\Horizon.Common.Models.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>

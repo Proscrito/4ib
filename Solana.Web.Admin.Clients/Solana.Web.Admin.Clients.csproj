@@ -1,0 +1,34 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net461</TargetFramework>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <OutputPath>..\..\Solana.Web.Build\Solana.Web.Admin\Solana.Web.Admin.Clients</OutputPath>
+  </PropertyGroup>
+
+  <!--This enables file nesting in a non-Web project. To toggle, choose "Web" under File Nesting -> Standard Settings in Solution Explorer-->
+  <ItemGroup>
+    <ProjectCapability Include="DynamicDependentFile" />
+    <ProjectCapability Include="DynamicFileNesting" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNet.WebApi.Client" Version="5.2.7" />
+    <PackageReference Include="Microsoft.AspNetCore.JsonPatch" Version="2.2.0" />
+    <PackageReference Include="Microsoft.Extensions.Options" Version="2.2.0" />
+    <PackageReference Include="System.Net.Http" Version="4.3.4" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Solana.Web.Admin.Models\Solana.Web.Admin.Models.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="Horizon.Common.Models">
+      <HintPath>..\..\Horizon.Common.Build\Horizon.Common.Custom\netstandard2.0\Horizon.Common.Models.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>
